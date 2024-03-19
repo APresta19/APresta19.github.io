@@ -1,10 +1,18 @@
+header
+{
+    background-color: #DBE2EF;
+    padding: 50px;
+    color: #3F72AF;
+    font-family: "Mohave", sans-serif;
+    font-size: 30px;
+}
 body
 {
     color: #40514E;
     background-color: #F9F7F7;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
 }
 hr
 {
@@ -13,17 +21,21 @@ hr
     width: 4%;
     margin: 100px auto;
 }
+#cursive
+{
+    font-family: "Sacramento", cursive;
+}
 h1
 {
     margin: 50px auto 0 auto;
     font-size: 5.625rem; /*16px is 100% - 90/16*/
     /*16px = 100% = 1em*/
-    font-family: 'Sacramento', cursive;
+    font-family: "Mohave", cursive;
     color: #3F72AF;
 }
 h2
 {
-    font-family: 'Mohave', sans-serif;
+    font-family: "Mohave", sans-serif;
     font-size: 2.5rem;
     color: #3F72AF;
     font-weight: normal;
@@ -31,7 +43,7 @@ h2
 }
 h3
 {
-    font-family: 'Mohave', sans-serif;
+    font-family: "Mohave", sans-serif;
     color: #034391;
 }
 a
@@ -45,9 +57,30 @@ a:hover
 {
     color: #EAF6F6;
 }
+.link-sec a
+{
+    color: #3F72AF;
+    font-family: "Mohave", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.link-sec a:hover
+{
+    color: #EAF6F6;
+}
 p
 {
     line-height: 2;
+}
+.head-sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+.link-sec
+{
+    display: flex;
+    gap: 30px;
 }
 .img-circle
 {
@@ -154,4 +187,30 @@ p
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+}
+.download
+{
+    font-size: 35px;
+}
+/* Projects Section */
+#projects
+{
+    font-size: 50px;
+}
+.project-sec
+{
+    padding-top: 140px;
+}
+.bottom-vid
+{
+    padding-bottom: 50px;
+}
+.project-bottom-container
+{
+    background-color: #3F72AF;
+    padding: 50px 0 20px;
+}
+#proj-title
+{
+    padding-left: 240px;
 }
